@@ -1,0 +1,13 @@
+Diferencias entre Telnet y SSH
+
+-Telnet transmite datos en texto sin formato, lo que hace que sea fácil para los atacantes interceptar y leer información sensible. En cambio, 
+SSH utiliza encriptación para proteger los datos transmitidos, lo que proporciona una conexión segura.
+ 
+-Telnet utiliza un sistema de autenticación básico que implica el envío de un nombre de usuario y una contraseña en texto sin formato. SSH admite 
+la autenticación de clave pública, que es más segura y no requiere el envío de contraseñas a través de la red.
+
+-Telnet utiliza el puerto 23 para establecer una conexión, mientras que SSH utiliza el puerto 22. Estos puertos son estándar, pero pueden configurarse 
+para utilizar otros en caso necesario.
+
+-Telnet proporciona una conexión de texto sin formato y es útil para realizar tareas básicas como la administración de dispositivos de red. SSH ofrece 
+una funcionalidad más avanzada, incluyendo la capacidad de ejecutar comandos remotos, transferir archivos de manera segura y reenviar puertos.
